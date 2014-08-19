@@ -14,7 +14,10 @@
 
 
         // Set a callback to run when the Google Visualization API is loaded.
-        google.setOnLoadCallback(drawChart);
+        google.setOnLoadCallback(function () {
+            drawChart();
+            drawChart1(pieChartArrayData);
+        });
 
     </script>
 </head>
@@ -22,5 +25,7 @@
 <body>
 <!--Div that will hold the pie chart-->
 <div id="pie-chart"></div>
+
+<div id="pie-chart1"></div>
 </body>
 </html>

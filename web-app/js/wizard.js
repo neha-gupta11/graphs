@@ -12,3 +12,14 @@ function drawChart() {
     var chart = new google.visualization.PieChart(document.getElementById('pie-chart'));
     chart.draw(data, options);
 }
+
+function drawChart1(chartData){
+    // Create the data table.
+    var data = google.visualization.arrayToDataTable(chartData);
+    // Set chart options
+    var options = pieChartOptions;
+
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.PieChart(document.getElementById('pie-chart1'));
+    chart.draw(data, options);
+}
