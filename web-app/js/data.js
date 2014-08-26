@@ -19,3 +19,18 @@ var pieChartArrayData = [
     ['Zucchini', 2],
     ['Pepperoni', 2]
 ];
+
+var vBarChartData = [
+    ['Year', 'Sales', 'Expenses'],
+    ['2004', 1000, 400],
+    ['2005', 1170, 460],
+    ['2006', 660, 1120],
+    ['2007', 1030, 540]
+];
+
+var hBarChartData = [
+    ['Year', '2004' , '2005', '2006', '2007' ],
+    ['Sales', 1000, 1170, 660, 1030],
+    ['Expenses', 400, 460, 1120, 540]
+];
+

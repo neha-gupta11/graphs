@@ -13,7 +13,7 @@ function drawChart() {
     chart.draw(data, options);
 }
 
-function drawChart1(chartData){
+function drawChart1(chartData) {
     // Create the data table.
     var data = google.visualization.arrayToDataTable(chartData);
     // Set chart options
@@ -24,21 +24,39 @@ function drawChart1(chartData){
     chart.draw(data, options);
 }
 
-function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-        ['Year', 'Sales', 'Expenses'],
-        ['2004',  1000,      400],
-        ['2005',  1170,      460],
-        ['2006',  660,       1120],
-        ['2007',  1030,      540]
-    ]);
+function drawvBarChart(chartData) {
+    var data = google.visualization.arrayToDataTable(chartData);
+
+    var options = {
+        title: 'Company Performance',
+        vAxis: {title: 'Year', titleTextStyle: {color: 'red'}},
+//        hAxis: {title: 'Sales', titleTextStyle: {color: 'pink'}},
+//        vAxis: {title: title.toTitleCase()}, // use capitalize
+//        hAxis: {title: generalizedResolution.toTitleCase()}, // use capitalize
+        height: '350',
+        width: '60%',
+        focusTarget: 'category',
+        tooltip: {isHtml: true},
+        pointSize: 5,
+        'chartArea': {'width': '60%'},
+        orientation: 'horizontal', //this will change the bar chart to column chart
+        dataOpacity: 0.85
+    };
+
+    var chart = new google.visualization.BarChart(document.getElementById('bar-chart-v'));
+
+    chart.draw(data, options);
+}
+
+function drawhBarChart(chartData) {
+    var data = google.visualization.arrayToDataTable(chartData);
 
     var options = {
         title: 'Company Performance',
         vAxis: {title: 'Year',  titleTextStyle: {color: 'red'}}
     };
 
-    var chart = new google.visualization.BarChart(document.getElementById('bar-chart'));
+    var chart = new google.visualization.BarChart(document.getElementById('bar-chart-h'));
 
     chart.draw(data, options);
 }

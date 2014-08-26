@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="762d1f98-f318-4ff4-a83f-68382b8bb355" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/data.js" afterPath="$PROJECT_DIR$/web-app/js/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/googleGraphs/pieCharts.gsp" afterPath="$PROJECT_DIR$/grails-app/views/googleGraphs/pieCharts.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/wizard.js" afterPath="$PROJECT_DIR$/web-app/js/wizard.js" />
     </list>
     <ignored path="graphs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pieCharts.gsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pieCharts.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/googleGraphs/pieCharts.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="794" selection-end="804" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="615">
+            <state line="45" column="7" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.740634" vertical-offset="418" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -85,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wizard.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wizard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/wizard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="85" selection-start="805" selection-end="805" vertical-scroll-proportion="0.55050504" vertical-offset="112" max-vertical-offset="735">
+            <state line="41" column="83" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -97,7 +99,7 @@
       <file leaf-file-name="data.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="2" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
+            <state line="31" column="10" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -541,19 +543,19 @@
       <updated>1408423860294</updated>
       <workItem from="1408423866577" duration="9366000" />
       <workItem from="1409032482573" duration="59000" />
-      <workItem from="1409035917666" duration="5000" />
+      <workItem from="1409035917666" duration="5505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9430000" />
+    <option name="totallyTimeSpent" value="14930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32750398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -566,7 +568,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -669,21 +671,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="2" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/googleGraphs/pieCharts.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="794" selection-end="804" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="615">
+        <state line="31" column="10" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/wizard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="85" selection-start="805" selection-end="805" vertical-scroll-proportion="0.55050504" vertical-offset="112" max-vertical-offset="735">
+        <state line="41" column="83" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/googleGraphs/pieCharts.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="7" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.740634" vertical-offset="418" max-vertical-offset="765">
           <folding />
         </state>
       </provider>

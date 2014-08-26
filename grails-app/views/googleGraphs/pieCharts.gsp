@@ -17,6 +17,8 @@
         google.setOnLoadCallback(function () {
             drawChart();
             drawChart1(pieChartArrayData);
+            drawvBarChart(vBarChartData);
+            drawhBarChart(vBarChartData);
         });
 
     </script>
@@ -25,12 +27,20 @@
 <body>
 <!--Div that will hold the pie chart-->
 <h3>Creating Single column and rows at a time</h3>
+
 <div id="pie-chart"></div>
 
 <h3>Having rows created on the basis of data</h3>
+
 <div id="pie-chart1"></div>
 
-<h3>bar chart</h3>
-<div id="bar-chart"></div>
+<h3>bar chart - horizontal</h3>
+
+<div id="bar-chart-h"></div>
+
+<h3>bar chart - vertical</h3>
+
+<div id="bar-chart-v"></div>
+
 </body>
 </html>
