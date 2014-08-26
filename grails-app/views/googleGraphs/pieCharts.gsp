@@ -19,6 +19,8 @@
             drawChart1(pieChartArrayData);
             drawvBarChart(vBarChartData);
             drawhBarChart(vBarChartData);
+            drawLineChart(lineChartData);
+            drawVisualization(comboChartData);
         });
 
     </script>
@@ -42,5 +44,12 @@
 
 <div id="bar-chart-v"></div>
 
+<h3>Line chart</h3>
+
+<div id="line-chart"></div>
+
+<h3>Combo chart</h3>
+
+<div id="combo-chart"></div>
 </body>
 </html>
