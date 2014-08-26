@@ -24,8 +24,13 @@
 
 <body>
 <!--Div that will hold the pie chart-->
+<h3>Creating Single column and rows at a time</h3>
 <div id="pie-chart"></div>
 
+<h3>Having rows created on the basis of data</h3>
 <div id="pie-chart1"></div>
+
+<h3>bar chart</h3>
+<div id="bar-chart"></div>
 </body>
 </html>
